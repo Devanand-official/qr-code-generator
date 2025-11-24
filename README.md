@@ -9,7 +9,7 @@ Built using:
 
 - fs – to save the output file
 
-📦 Installation
+## 📦 Installation
 1. Clone the repository
 
 ```
@@ -21,7 +21,7 @@ cd <your-project-folder>
 
 `npm install`
 
-▶️ Usage
+## ▶️ Usage
 
 Run the script:
 
@@ -37,7 +37,7 @@ After entering your URL, a QR code image will be generated and saved as:
 
 `qr_image.png`
 
-📁 Code (index.js)
+## 📁 Code (index.js)
 ```
 import inquirer from "inquirer";
 import qr from "qr-image";
@@ -65,7 +65,7 @@ inquirer
   });
   ```
 
-📌 Output File
+## 📌 Output File
 
 - Generated file: qr_image.png
 
@@ -73,13 +73,14 @@ inquirer
 
 - Format: PNG QR Code
 
-🧩 Requirements
+## 🧩 Requirements
 
 - Node.js (v16 or later recommended)
 
 - npm (comes with Node)
 
-❗ Troubleshooting
+## ❗ Troubleshooting
+
 | Problem	| Reason	| Fix |
 | ------- | ------- | --- |
 | `Cannot find module 'inquirer'` |	Dependencies missing	| Run `npm install` |
