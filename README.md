@@ -3,11 +3,11 @@
 A simple Node.js command-line QR generator that takes a URL from the user and produces a qr_image.png file.
 Built using:
 
-Inquirer – for terminal prompts
+- Inquirer – for terminal prompts
 
-qr-image – to generate QR codes
+- qr-image – to generate QR codes
 
-fs – to save the output file
+- fs – to save the output file
 
 📦 Installation
 1. Clone the repository
