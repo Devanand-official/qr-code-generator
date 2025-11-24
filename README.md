@@ -12,29 +12,33 @@ Built using:
 📦 Installation
 1. Clone the repository
 
-`git clone <your-repo-url>
-cd <your-project-folder>`
+```
+git clone <your-repo-url>
+cd <your-project-folder>
+```
 
 2. Install dependencies
-npm install
+
+`npm install`
 
 ▶️ Usage
 
 Run the script:
 
-node index.js
+`node index.js`
 
 
 You will see:
 
-Type in your URL :
+`Type in your URL :`
 
 
 After entering your URL, a QR code image will be generated and saved as:
 
-qr_image.png
+`qr_image.png`
 
 📁 Code (index.js)
+```
 import inquirer from "inquirer";
 import qr from "qr-image";
 import fs from "fs";
@@ -59,23 +63,25 @@ inquirer
       console.log("Something went wrong:", error);
     }
   });
+  ```
 
 📌 Output File
 
-Generated file: qr_image.png
+- Generated file: qr_image.png
 
-Location: Project root folder
+- Location: Project root folder
 
-Format: PNG QR Code
+- Format: PNG QR Code
 
 🧩 Requirements
 
-Node.js (v16 or later recommended)
+- Node.js (v16 or later recommended)
 
-npm (comes with Node)
+- npm (comes with Node)
 
 ❗ Troubleshooting
-Problem	Reason	Fix
-Cannot find module 'inquirer'	Dependencies missing	Run npm install
-QR file not created	Permission issue or wrong folder	Use a writable folder
-Inquirer prompt not showing	Unsupported terminal	Use PowerShell / CMD / Bash
+| Problem	| Reason	| Fix |
+| ------- | ------- | --- |
+| `Cannot find module 'inquirer'` |	Dependencies missing	| Run `npm install` |
+| QR file not created |	Permission issue or wrong folder |	Use a writable folder |
+| Inquirer prompt not showing |	Unsupported terminal	| Use PowerShell / CMD / Bash |
