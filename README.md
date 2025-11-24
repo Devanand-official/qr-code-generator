@@ -11,8 +11,9 @@ Built using:
 
 📦 Installation
 1. Clone the repository
-git clone <your-repo-url>
-cd <your-project-folder>
+
+`git clone <your-repo-url>
+cd <your-project-folder>`
 
 2. Install dependencies
 npm install
